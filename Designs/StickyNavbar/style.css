@@ -82,4 +82,8 @@ header.sticky ul li a{
   position: fixed;
   right: 0;
   bottom: 0;
+  padding: 5px 5px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 12px;
 }
