@@ -461,18 +461,13 @@ section{
     }
 }
 
-
 #code-url {
   display: block;
   position: fixed;
   right: 0;
   bottom: 0;
-  padding: 10px 14px;
-  margin: 20px;
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  background-color: #143240;
-  border-radius: 4px;
-  box-shadow: 0 10px 20px -5px rgba(20, 50, 64, 0.76);
+  padding: 5px 5px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 12px;
 }
