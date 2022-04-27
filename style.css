@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -30,7 +33,6 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-
 .container2 {
     width: 60%;
     height: 100%;
@@ -42,12 +44,12 @@ h1 {
 }
 
 
-.list ul {
+.list ul{
     display: block;
 }
 
 
-.list ul li {
+.list ul li{
     position: relative;
     left: 0;
     list-style: none;
@@ -58,7 +60,7 @@ h1 {
     z-index: 1;
 }
 
-.list ul li::before {
+.list ul li::before{
     content: '';
     position: absolute;
     width: 100%;
@@ -71,13 +73,13 @@ h1 {
 }
 
 
-.list ul li:hover {
+.list ul li:hover{
     left: 8px;
     box-shadow: 0 0 10px #2ecc71, 0 0 30px #2ecc71, 0 0 50px #2ecc71;
 }
 
 
-.list ul li:hover::before {
+.list ul li:hover::before{
     transform: scaleX(1);
 }
 
@@ -103,4 +105,13 @@ h1 {
 
 .list ul li:hover a {
     color: #fff;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .container1, .container2{
+        width: 95%;
+    }
+    
 }
