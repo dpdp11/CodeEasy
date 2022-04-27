@@ -9,6 +9,7 @@ container.addEventListener("mousemove", (e) => {
 
     img.style.transformOrigin = `${x}px ${y}px`;
     img.style.transform = "scale(2)";
+    img.style.cursor = "zoom-in";
 });
 
 container.addEventListener("mouseleave", () => {
