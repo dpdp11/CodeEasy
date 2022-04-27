@@ -1,2 +1,3 @@
 # HTML-CSS-JS-Design-Templates
-helping elements and designs.
+Helping elements and designs code.
+Mini Projects
