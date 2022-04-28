@@ -115,7 +115,7 @@ img{
 
 @media screen and (max-width: 480px) {
 
-    .container1, .container2{
+    .container1, .container2, .container3{
         width: 95%;
     }
     
