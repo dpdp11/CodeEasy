@@ -1,0 +1,32 @@
+@import "mixins";
+@import "variables";
+
+
+body{
+    background-color: black;
+}
+
+
+.container{
+    @include flexbox;
+}
+
+.box{
+    h1{
+        color: $white;
+
+        &:hover{
+            color: $red;
+        }
+
+
+    p{
+        color: red;
+    }
+}
+
+
+
+p{
+    color: green;
+}
