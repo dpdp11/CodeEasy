@@ -8,10 +8,10 @@ let time = now.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hou
 const curDate = document.getElementById('date');
 curDate.innerHTML = day + " | " + month + " " + date + " | " + time;
 
-// api = http://api.openweathermap.org/data/2.5/weather?q=meerut&units=metric&appid=bc7fee6f03cb4ca53abfb383fa32ca02
+//api = http://api.openweathermap.org/data/2.5/weather?q=meerut&units=metric&appid=bc7fee6f03cb4ca53abfb383fa32ca02
 const api = 'bc7fee6f03cb4ca53abfb383fa32ca02';
 let place = "meerut";
-let url = 'http:api.openweathermap.org/data/2.5/weather?q=' + place + '&units=metric&appid=' + api;
+let url = 'https:api.openweathermap.org/data/2.5/weather?q=' + place + '&units=metric&appid=' + api;
 
 function start() {
     fetch(url)
